@@ -1,0 +1,43 @@
+.root {
+  border-radius: var(--border-radius-s);
+  padding: var(--spacing-s) var(--spacing-m);
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.primary {
+  background-color: var(--color-background-brand-secondary);
+  color: var(--color-foreground-tertiary);
+  transition: background-color 0.3s;
+
+  &:hover {
+    background-color: var(--color-background-brand-primary);
+  }
+}
+
+.secondary {
+  background-color: var(--background-brand-secondary);
+  color: var(--color-foreground-brand-secondary);
+  border: 1px solid var(--color-border-brand-secondary);
+}
+
+.link {
+  background-color: transparent;
+  text-decoration: underline;
+  text-decoration-color: blue;
+  text-decoration-thickness: 3px;
+}
+
+.small {
+  font-size: 17px;
+}
+
+.medium {
+  font-size: 24px;
+}
+
+.large {
+  font-size: 28px;
+}

@@ -1,0 +1,61 @@
+@import "@fontsource/ubuntu/300";
+@import "@fontsource/ubuntu/400";
+@import "@fontsource/ubuntu/500";
+@import "@fontsource/ubuntu/700";
+
+:root {
+  --font-family: "Ubuntu", sans-serif;
+
+  --text-weight-light: 300;
+  --text-weight-regular: 400;
+  --text-weight-medium: 500;
+  --text-weight-bold: 700;
+
+  --text-heading-1-font-family: var(--font-family);
+  --text-heading-1-font-size: 32px;
+  --text-heading-1-font-weight: 400;
+  --text-heading-1-line-height: 40px;
+  --text-heading-1-letter-spacing: 1.3%;
+
+  --text-heading-2-font-family: var(--font-family);
+  --text-heading-2-font-size: 28px;
+  --text-heading-2-font-weight: 400;
+  --text-heading-2-line-height: 36px;
+  --text-heading-2-letter-spacing: 1%;
+
+  --text-heading-3-font-family: var(--font-family);
+  --text-heading-3-font-size: 24px;
+  --text-heading-3-font-weight: 400;
+  --text-heading-3-line-height: 32px;
+  --text-heading-3-letter-spacing: 1%;
+
+  --text-headline-font-family: var(--font-family);
+  --text-headline-font-size: 20px;
+  --text-headline-font-weight: 400;
+  --text-headline-line-height: 28px;
+  --text-headline-letter-spacing: 1%;
+
+  --text-subheadline-font-family: var(--font-family);
+  --text-subheadline-font-size: 18px;
+  --text-subheadline-font-weight: 400;
+  --text-subheadline-line-height: 24px;
+  --text-subheadline-letter-spacing: 0.7%;
+
+  --text-body-large-font-family: var(--font-family);
+  --text-body-large-font-size: 16px;
+  --text-body-large-font-weight: 400;
+  --text-body-large-line-height: 22px;
+  --text-body-large-letter-spacing: 0.7%;
+
+  --text-body-font-family: var(--font-family);
+  --text-body-font-size: 14px;
+  --text-body-font-weight: 400;
+  --text-body-line-height: 20px;
+  --text-body-letter-spacing: 0.7%;
+
+  --text-caption-font-family: var(--font-family);
+  --text-caption-font-size: 12px;
+  --text-caption-font-weight: 400;
+  --text-caption-line-height: 18px;
+  --text-caption-letter-spacing: 0.3%;
+}

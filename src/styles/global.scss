@@ -1,0 +1,39 @@
+@import "./base/colors";
+@import "./base/typography";
+@import "./base/sizing";
+@import "./base/reset";
+
+@import "./themes/light";
+@import "./themes/dark";
+
+:root {
+  --border-radius-none: var(--size-0);
+  --border-radius-xs: var(--size-2);
+  --border-radius-s: var(--size-4);
+  --border-radius-m: var(--size-6);
+  --border-radius-l: var(--size-8);
+  --border-radius-xl: var(--size-12);
+  --border-radius-2xl: var(--size-16);
+  --border-radius-3xl: var(--size-24);
+  --border-radius-4xl: var(--size-32);
+
+  --icon-size-xs: var(--size-12);
+  --icon-size-s: var(--size-16);
+  --icon-size-m: var(--size-24);
+  --icon-size-l: var(--size-32);
+  --icon-size-xl: var(--size-40);
+
+  --spacing-none: var(--size-0);
+  --spacing-xs: var(--size-4);
+  --spacing-s: var(--size-8);
+  --spacing-m: var(--size-12);
+  --spacing-l: var(--size-16);
+  --spacing-xl: var(--size-20);
+  --spacing-2xl: var(--size-24);
+  --spacing-3xl: var(--size-28);
+  --spacing-4xl: var(--size-32);
+  --spacing-5xl: var(--size-36);
+  --spacing-6xl: var(--size-40);
+
+  font-family: var(--font-family);
+}

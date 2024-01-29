@@ -40,3 +40,20 @@ export const Link: Story = {
     variant: "link",
   },
 };
+
+export const All = () => {
+  return (
+    <div
+      style={{
+        padding: "1rem",
+        display: "flex",
+        flexDirection: "column",
+        gap: "1rem",
+      }}
+    >
+      <Button variant="primary">Primary</Button>
+      <Button variant="secondary">Secondary</Button>
+      <Button variant="link">Link</Button>
+    </div>
+  );
+};

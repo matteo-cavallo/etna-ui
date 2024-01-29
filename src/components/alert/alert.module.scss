@@ -1,0 +1,117 @@
+.alert {
+  padding: var(--spacing-l);
+  border-radius: var(--border-radius-s);
+  margin-bottom: var(--spacing-l);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.center {
+  align-items: center;
+}
+
+.start {
+  align-items: flex-start;
+}
+
+.icon {
+  margin-right: var(--spacing-s);
+  font-size: 16px;
+  color: currentColor;
+}
+
+.content {
+  flex: 1;
+  :first-child {
+    margin-top: 0;
+    line-height: normal;
+  }
+}
+
+.title {
+}
+
+.description {
+  margin-top: var(--spacing-xs);
+}
+
+.closeButton {
+  cursor: pointer;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+
+/* Variants */
+.solid {
+  border: none;
+}
+
+.outline {
+  border: 1px solid currentColor;
+  background: transparent;
+}
+
+/* Types */
+.critical.solid {
+  color: var(--color-foreground-tertiary);
+  background-color: var(--color-background-danger-secondary);
+}
+
+.danger.solid {
+  color: var(--color-foreground-tertiary);
+  background-color: var(--color-background-danger-primary);
+}
+
+.warning.solid {
+  color: var(--color-foreground-tertiary);
+  background-color: var(--color-background-warning-secondary);
+}
+
+.success.solid {
+  color: var(--color-foreground-tertiary);
+  background-color: var(--color-background-success-secondary);
+}
+
+.informative.solid {
+  color: var(--color-foreground-tertiary);
+  background-color: var(--color-background-informative-secondary);
+}
+
+.discovery.solid {
+  color: var(--color-foreground-tertiary);
+  background-color: var(--color-background-brand-secondary);
+}
+
+.critical.outline {
+  color: var(--color-background-danger-primary);
+  border-color: var(--color-background-danger-primary);
+}
+
+.danger.outline {
+  color: var(--color-background-danger-primary);
+  border-color: var(--color-background-danger-primary);
+}
+
+.warning.outline {
+  color: var(--color-background-warning-primary);
+  border-color: var(--color-background-warning-primary);
+}
+
+.success.outline {
+  color: var(--color-background-success-primary);
+  border-color: var(--color-background-success-primary);
+}
+
+.informative.outline {
+  color: var(--color-background-informative-primary);
+  border-color: var(--color-background-informative-primary);
+}
+
+.discovery.outline {
+  color: var(--color-foreground-brand-secondary);
+  border-color: var(--color-background-discovery-secondary);
+}

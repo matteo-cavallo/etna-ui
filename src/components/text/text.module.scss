@@ -1,0 +1,105 @@
+.root {
+  font-family: var(--font-family);
+  text-align: inherit;
+}
+
+.heading-1 {
+  font-size: var(--text-heading-1-font-size);
+  line-height: var(--text-heading-1-line-height);
+  letter-spacing: var(--text-heading-1-letter-spacing);
+}
+
+.heading-2 {
+  font-size: var(--text-heading-2-font-size);
+  line-height: var(--text-heading-2-line-height);
+  letter-spacing: var(--text-heading-2-letter-spacing);
+}
+
+.heading-3 {
+  font-size: var(--text-heading-3-font-size);
+  line-height: var(--text-heading-3-line-height);
+  letter-spacing: var(--text-heading-3-letter-spacing);
+}
+
+.headline {
+  font-size: var(--text-headline-font-size);
+  line-height: var(--text-headline-line-height);
+  letter-spacing: var(--text-headline-letter-spacing);
+}
+
+.headline-italic {
+  font-size: var(--text-headline-font-size);
+  line-height: var(--text-headline-line-height);
+  letter-spacing: var(--text-headline-letter-spacing);
+  font-style: italic;
+}
+
+.subheadline {
+  font-size: var(--text-subheadline-font-size);
+  line-height: var(--text-subheadline-line-height);
+  letter-spacing: var(--text-subheadline-letter-spacing);
+}
+
+.body-large {
+  font-size: var(--text-body-large-font-size);
+  line-height: var(--text-body-large-line-height);
+  letter-spacing: var(--text-body-large-letter-spacing);
+}
+
+.body {
+  font-size: var(--text-body-font-size);
+  line-height: var(--text-body-line-height);
+  letter-spacing: var(--text-body-letter-spacing);
+}
+
+.body-italic {
+  font-size: var(--text-body-font-size);
+  line-height: var(--text-body-line-height);
+  letter-spacing: var(--text-body-letter-spacing);
+  font-style: italic;
+}
+
+.caption {
+  font-size: var(--text-caption-font-size);
+  line-height: var(--text-caption-line-height);
+  letter-spacing: var(--text-caption-letter-spacing);
+}
+
+.caption-italic {
+  font-size: var(--text-caption-font-size);
+  line-height: var(--text-caption-line-height);
+  letter-spacing: var(--text-caption-letter-spacing);
+  font-style: italic;
+}
+
+.regular {
+  font-weight: --text-weight-regular;
+}
+
+.light {
+  font-weight: var(--text-weight-light);
+}
+
+.medium {
+  font-weight: var(--text-weight-medium);
+}
+
+.bold {
+  font-weight: var(--text-weight-bold);
+}
+
+.start {
+  text-align: start;
+}
+
+.center {
+  text-align: center;
+}
+
+.end {
+  text-align: end;
+}
+
+.justify {
+  text-align: justify;
+}

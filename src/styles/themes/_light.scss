@@ -1,0 +1,55 @@
+:root {
+  /** Backgrounds */
+  --color-background-primary: var(--black-10);
+  --color-background-secondary: var(--black-20);
+  --color-background-tertiary: var(--black-30);
+  --color-background-fourth: var(--black-40);
+  --color-background-brand-primary: var(--purple-700);
+  --color-background-brand-secondary: var(--purple-300);
+  --color-background-brand-tertiary: var(--purple-20);
+  --color-background-danger-primary: var(--red-700);
+  --color-background-danger-secondary: var(--red-500);
+  --color-background-danger-tertiary: var(--red-10);
+  --color-background-warning-primary: var(--yellow-800);
+  --color-background-warning-secondary: var(--yellow-600);
+  --color-background-warning-tertiary: var(--yellow-10);
+  --color-background-success-primary: var(--green-700);
+  --color-background-success-secondary: var(--green-500);
+  --color-background-success-tertiary: var(--green-10);
+  --color-background-informative-primary: var(--blue-700);
+  --color-background-informative-secondary: var(--blue-500);
+  --color-background-informative-tertiary: var(--blue-10);
+
+  /* Foregrounds */
+  --color-foreground-primary: var(--black-800);
+  --color-foreground-secondary: var(--black-300);
+  --color-foreground-tertiary: var(--black-10);
+  --color-foreground-fourth: var(--black-100);
+  --color-foreground-brand-primary: var(--purple-500);
+  --color-foreground-brand-secondary: var(--purple-100);
+  --color-foreground-danger-primary: var(--red-700);
+  --color-foreground-danger-secondary: var(--red-400);
+  --color-foreground-warning-primary: var(--yellow-800);
+  --color-foreground-warning-secondary: var(--yellow-400);
+  --color-foreground-success-primary: var(--green-700);
+  --color-foreground-success-secondary: var(--green-400);
+  --color-foreground-informative-primary: var(--blue-700);
+  --color-foreground-informative-secondary: var(--blue-400);
+
+  /* Borders */
+  --color-border-primary: var(--black-30);
+  --color-border-secondary: var(--black-50);
+  --color-border-tertiary: var(--black-400);
+  --color-border-fourth: var(--black-100);
+  --color-border-focus: var(--blue-500);
+  --color-border-brand-primary: var(--purple-500);
+  --color-border-brand-secondary: var(--purple-100);
+  --color-border-danger-primary: var(--red-700);
+  --color-border-danger-secondary: var(--red-400);
+  --color-border-warning-primary: var(--yellow-800);
+  --color-border-warning-secondary: var(--yellow-400);
+  --color-border-success-primary: var(--green-700);
+  --color-border-success-secondary: var(--green-400);
+  --color-border-informative-primary: var(--blue-700);
+  --color-border-informative-secondary: var(--blue-400);
+}

@@ -18,26 +18,13 @@
 }
 
 .secondary {
-  background-color: var(--background-brand-secondary);
+  background-color: transparent;
   color: var(--color-foreground-brand-secondary);
   border: 1px solid var(--color-border-brand-secondary);
 }
 
 .link {
+  color: var(--color-foreground-brand-secondary);
   background-color: transparent;
-  text-decoration: underline;
-  text-decoration-color: blue;
-  text-decoration-thickness: 3px;
-}
-
-.small {
-  font-size: 17px;
-}
-
-.medium {
-  font-size: 24px;
-}
-
-.large {
-  font-size: 28px;
+  text-decoration-color: var(--color-foreground-brand-secondary);
 }

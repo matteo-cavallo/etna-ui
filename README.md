@@ -8,7 +8,7 @@ Designed in Figma, EtnaUI empowers you to bring your vision to life with ease an
 
 ## Project
 
-This project is a React components library using TypeScript, Vite, Storybook, CSS Modules, ESLint, and with [Material Design Icons](https://material.io/resources/icons/) integrated. It is set up as a [pnpm](https://pnpm.io/) project for efficient package management. This template comes pre-configured with text, button, and alert components.
+This project is a React components library using TypeScript, Vite, Storybook, CSS Modules, ESLint, and with [Material Design Icons](https://material.io/resources/icons/) integrated. It is set up as a [pnpm](https://pnpm.io/) project for efficient package management.
 
 ## Features
 
